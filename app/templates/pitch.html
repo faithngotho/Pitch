@@ -7,6 +7,23 @@
     <div class="row">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 posterPath" style="background: url({{pitch.poster}}) no-repeat center center">
         </div>
+       
+        
+        <div class="row">
+
+                <h1>Reviews</h1>
+                <hr>
+        
+                {% if reviews %}
+                    {{macro.displayReviews(reviews)}}
+        
+                {% else%}
+                    <h3 class="text-center">This pitch has no reviews </h3>
+        
+                    <a class="btn btn-success btn-lg text-center" href="/pitch/review/new/{{pitch.id}}"> Write a new review</a>
+                {% endif %}
+        
+            </div>
 
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 pitch-details">
             <h3>{{ pitch.title }}</h3>

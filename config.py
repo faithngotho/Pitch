@@ -1,10 +1,9 @@
 class Config:
-    '''
-    General configuration parent class
-    '''
-    pass
+    
+   
+ SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://faith:34816809@localhost/pitch'
 
-
+pass
 
 class ProdConfig(Config):
     '''
