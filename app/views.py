@@ -11,8 +11,12 @@ def index():
 
     # Getting Pitch
     print(pitch)
+
+    if search_pitch:
+        return redirect(url_for('search',pitch_name=search_pitch))
+    else:
     title = 'Home - Welcome to Pitch Website Online'
-    return render_template('index.html', title = title,popular = Pitch)
+    return render_template('index.html', title = title)
 
 
 @app.route('/pitch/<int:id>')
