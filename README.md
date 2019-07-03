@@ -42,16 +42,16 @@ $ python3.6 manage.py test
 
    Behaviour         	Input	                               Output
 |--------------|------------------|------------------------------------------------------|
-View Categories Click on category  A list of pitches in that category is displayed
-|--------------|------------------|-----------------------------------------------------|
-Add a new pitch|Click on pitch	  |Authentification page is displayed and user can pitch
-|--------------|------------------|-----------------------------------------------------|
-Add a comment	 |Click on comment	|Comment form is displayed and user can comment       
-|--------------|------------------|-----------------------------------------------------|
-Upvote pitch	 |Click on upvote	  |Pitch gets +1 upvote                                 
-|--------------|------------------|-----------------------------------------------------|
-Downvote pitch |Click on downvote	|Pitche gets +1 downvote                              
-|--------------|------------------|-----------------------------------------------------|
+View Categories  Click on category   A list of pitches in that category is displayed
+|--------------|------------------|------------------------------------------------------|
+Add a new pitch  Click on pitch	   Authentification page is displayed and user can pitch
+|--------------|------------------|------------------------------------------------------|
+Add a comment	  Click on comment	Comment form is displayed and user can comment       
+|--------------|------------------|------------------------------------------------------|
+Upvote pitch	  Click on upvote	   Pitch gets +1 upvote                                 
+|--------------|------------------|------------------------------------------------------|
+Downvote pitch   Click on downvote   Pitche gets +1 downvote                              
+|--------------|------------------|------------------------------------------------------|
 
 ## Contact Information
 For any questions, troubleshooting or contributions, find me on: Email: faithwangari248@gmail.com
