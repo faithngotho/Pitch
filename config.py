@@ -6,7 +6,7 @@ class Config:
     '''
     SECRET_KEY = "1234"
     UPLOADED_PHOTOS_DEST = 'app/static/photos'
-    
+    SQLALCHEMY_TRACK_MODIFICATIONS = True
     SSL_DISABLE = False
     SQLALCHEMY_COMMIT_ON_TEARDOWN = True
     SQLCLCHEMY_RECORD_QUERIES = True
@@ -31,7 +31,7 @@ class ProdConfig(Config):
     Args:
         Config: The parent configuration class with General configuration settings
     '''
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://faith:34816809@localhost/pitches'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://faith:34816809@localhost/pitch'
 
 class DevConfig(Config):
     '''
@@ -39,7 +39,7 @@ class DevConfig(Config):
     Args:
         Config: The parent configuration class with General configuration settings
     '''
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://faith:34816809@localhost/pitches'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://faith:34816809@localhost/pitch'
 
     DEBUG = True
 
