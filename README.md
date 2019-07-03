@@ -39,7 +39,7 @@ $ python3.6 manage.py test
 3 .Boostrap
 
 ## BDD
-Behavior                Input            Output
+
 View Categories  Click on category   A list of pitches in that category is displayed
 Add a new pitch  Click on pitch	   Authentification page is displayed and user can pitch
 Add a comment	  Click on comment	Comment form is displayed and user can comment  
