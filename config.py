@@ -13,7 +13,7 @@ class Config:
     CSRF_ENABLED = True
     MAIL_SERVER = os.environ.get('MAIL_SERVER','smtp.gmail.com')
     MAIL_USERNAME = os.environ.get('MAIL_USERNAME','faithwangari248@gmail.com')
-    MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD','generari254')
+    MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD','34816809')
     MAIL_SENDER = os.environ.get('MAIL_SENDER', 'Project Admin<faithwangari248@gmail.com>')
     PROJECT_ADMIN = os.environ.get('PROJECT_ADMIN', 'PROJECT_ADMIN')
     MAIL_PORT = int(os.environ.get('MAIL_PORT', '465'))
